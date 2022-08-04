@@ -7,8 +7,8 @@ defmodule Cartesian.MixProject do
       version: "0.1.0",
       elixir: "~> 1.13",
       start_permanent: Mix.env() == :prod,
-      description: description,
-      package: package,
+      description: description(),
+      package: package(),
       deps: deps()
     ]
   end

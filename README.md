@@ -4,7 +4,7 @@ A teeny tiny library for cartesian product functionality in Elixir.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
+In (https://hex.pm/docs/publish), the package can be installed
 by adding `cartesian` to your list of dependencies in `mix.exs`:
 
 ```elixir
