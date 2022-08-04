@@ -22,7 +22,7 @@ defmodule Cartesian.MixProject do
 
   defp description do
     """
-    Library for manipulating and validating IBAN account numbers.
+    Library for micro cartesian algorithms.
     """
   end
 
