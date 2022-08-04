@@ -1,6 +1,8 @@
-defmodule Product do
+defmodule Cartesian do
 
-  def cartesian(list1, list2) do
+  # A list method that returns all combinations of elements within lists.
+
+  def product(list1, list2) do
    first = list1
    rest = list2
 
@@ -11,10 +13,10 @@ defmodule Product do
     |>IO.inspect()
   end
 
-  def cartesian(args) do
+  def product(args) do
     [first | rest] = args
- 
-     rest
+   
+     rest 
      |> Enum.reduce(first, fn
        row, acc -> combine(acc, row)
      end)
