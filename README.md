@@ -10,7 +10,7 @@ by adding `cartesian` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:cartesian, "~> 0.1.0"}
+    {:cartesian, "~> 0.2.0"}
   ]
 end
 ```
