@@ -22,5 +22,9 @@ be found at <https://hexdocs.pm/cartesian>. -->
 ## Author
 Savhappy
 
+## Instructions
+After adding Cartesian to your dependencie, utilize product/2 or product/1 with a data type of your choice. A smal file of test have been included for your testing pleasures. 
+
+
 Cartesian is released under the [MIT License](https://github.com/appcues/exsentry/blob/master/LICENSE.txt).
 
